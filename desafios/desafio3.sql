@@ -1,4 +1,4 @@
-SELECT * from usuarios;
+USE SpotifyClone;
 CREATE VIEW historico_reproducao_usuarios AS
 SELECT u.nome_usuario as usuario, m.nome_musica as nome
 FROM usuarios u
