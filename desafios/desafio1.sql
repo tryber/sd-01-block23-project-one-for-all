@@ -79,5 +79,5 @@ INSERT INTO artistas_seguidos (usuario_id, artista_id) VALUES
 INSERT INTO historico_reproducao (usuario_id, musica_id) VALUES
 (15, 1), (15, 2), (15, 3), (15, 4),
 (16, 5), (16, 6), (16, 7), (16, 8),
-(17, 9), (17, 4), (17, 1), (18, 10),
+(17, 9), (17, 4), (17, 2), (18, 10),
 (18, 11), (18, 12);
