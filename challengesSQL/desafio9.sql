@@ -15,4 +15,4 @@ END $$
 
 DELIMITER ;
 
-CALL albuns_do_artista(1);
+CALL albuns_do_artista(15);
