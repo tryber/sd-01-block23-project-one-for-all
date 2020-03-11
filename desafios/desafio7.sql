@@ -14,4 +14,3 @@ GROUP BY al.album_id
 order by 5 desc;
 
 SELECT * FROM perfil_artistas;
- 
