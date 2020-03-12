@@ -6,7 +6,7 @@ CREATE TABLE subscription_plans (
   subscription_plans_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   plan_type VARCHAR(30) NOT NULL,
   plan_price DECIMAL(9,2) NOT NULL
- ) ENGINE = InnoDB;
+  ) ENGINE = InnoDB;
 
 CREATE TABLE users_spotify (
   user_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
