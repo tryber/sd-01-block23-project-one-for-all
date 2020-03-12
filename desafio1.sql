@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS users (
   age INT UNSIGNED NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE = InnoDB;
-
+SELECT * FROM users; SELECT * FROM follow_artist; SELECT * FROM playback_history; SELECT * FROM package_purchase;
 INSERT INTO users(id, name, age)
 VALUES (15, 'Thati', 23), (16, 'Cintia', 35), (17, 'Bill', 20), (18, 'Roger', 45);
 
