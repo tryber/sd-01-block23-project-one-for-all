@@ -10,5 +10,4 @@ FROM
 FROM SpotifyClone.usuario u
 inner join SpotifyClone.plano p
 on p.plano_id = u.plano_id) as teste;
-
 SELECT * FROM faturamento_atual;

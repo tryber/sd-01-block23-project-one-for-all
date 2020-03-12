@@ -12,5 +12,4 @@ BEGIN
 END; $$
 DELIMITER ;
 
-DELETE FROM usuario
-    where usuario_id = 15;
+DELETE FROM usuario where usuario_id = 15;
